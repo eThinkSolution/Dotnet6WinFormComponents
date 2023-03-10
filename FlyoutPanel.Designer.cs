@@ -35,7 +35,6 @@
             this.picCloseAtHeader = new System.Windows.Forms.PictureBox();
             this.pnFooter = new System.Windows.Forms.Panel();
             this.picCloseAtFooter = new System.Windows.Forms.PictureBox();
-            this.ucBody = new Dotnet6WinFormComponents.ControlContainer();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pnHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCloseAtHeader)).BeginInit();
@@ -99,16 +98,9 @@
             this.picCloseAtFooter.TabStop = false;
             this.picCloseAtFooter.Click += new System.EventHandler(this.picCloseAtHeader_Click);
             // 
-            // ucBody
-            // 
-            this.ucBody.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucBody.Location = new System.Drawing.Point(10, 54);
-            this.ucBody.Name = "ucBody";
-            this.ucBody.Size = new System.Drawing.Size(412, 153);
-            this.ucBody.TabIndex = 7;
-            // 
             // timer1
             // 
+            this.timer1.Interval = 16;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // FlyoutPanel
@@ -116,7 +108,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.ucBody);
             this.Controls.Add(this.pnFooter);
             this.Controls.Add(this.pnHeader);
             this.Name = "FlyoutPanel";
