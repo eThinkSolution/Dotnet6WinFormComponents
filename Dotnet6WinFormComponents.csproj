@@ -5,6 +5,9 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>June Hoow</Authors>
+    <Company>eThink Solution</Company>
   </PropertyGroup>
 
 </Project>
